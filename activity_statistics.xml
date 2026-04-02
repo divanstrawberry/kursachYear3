@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_statistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:text="Статистика" />
+
+    <Button
+        android:id="@+id/button_reset_stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сбросить статистику"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9E7E41"/>
+
+    <Button
+        android:id="@+id/button_back_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="На главный экран"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#9E7E41"/>
+</LinearLayout>

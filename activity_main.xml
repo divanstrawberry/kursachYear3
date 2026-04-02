@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/title_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Музыкальный квиз"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button_classical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Классическая музыка"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#9E7E41"/>
+
+    <Button
+        android:id="@+id/button_rock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Рок"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#9E7E41"/>
+
+    <Button
+        android:id="@+id/button_kpop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="К-Поп"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#9E7E41"/>
+
+    <Button
+        android:id="@+id/button_statistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5F4421"
+        android:text="Статистика" />
+
+</LinearLayout>
